@@ -1,0 +1,6 @@
+Crie um programa que imprima a sequência de números de 1 a 10.
+Escreva um programa que calcule a soma dos números de 1 a 100.
+Crie um programa que solicite ao usuário dois números e exiba o resultado da multiplicação.
+Escreva um programa que imprima os números pares de 1 a 50.
+Crie um programa que verifique se um número digitado pelo usuário é positivo, negativo ou zero.
+Crie um programa que solicite ao usuário uma palavra e imprima-a de trás para frente.

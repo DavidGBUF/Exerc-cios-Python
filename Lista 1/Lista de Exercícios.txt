@@ -1,0 +1,10 @@
+Lista de exercícios de Python para iniciantes
+Para ajudar você a começar a praticar Python, aqui está uma lista de exercícios para iniciantes:
+
+1 Escreva um programa que imprima “Olá, mundo!” na tela.
+2 Escreva um programa que peça ao usuário para digitar seu nome e, em seguida, imprima uma saudação personalizada.
+3 Escreva um programa que converta uma temperatura em graus Celsius para Fahrenheit.
+4 Escreva um programa que calcule a média de três notas e imprima o resultado.
+5 Escreva um programa que verifique se um número é primo.
+6 Escreva um programa que calcule o fatorial de um número.
+7 Escreva um programa que determine se um número é par ou ímpar.
