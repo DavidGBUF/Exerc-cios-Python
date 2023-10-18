@@ -59,6 +59,68 @@
 
 
 
+# #Questão10======================================
+# celsius=float(input("Digite aqui a temperatura em celsius que será convertida: "))
+# Fahrenheit=(celsius*9/5+32)
+# print(f"Isso equivale a {Fahrenheit}°F")
+
+
+
+# #Questão11====================================
+# inteiro_1,inteiro_2,real= input("Digite dois números inteiros e um real: ").split()
+# inteiro_1, inteiro_2, real= int(inteiro_1),int(inteiro_2), float(real)
+# print(f"O dobro do primeiro vezes metade do segundo é {inteiro_1*2*(inteiro_2/2)}")
+# print(f"\n A soma do triplo do primeiro com o terceiro é {inteiro_1*3+real}\n")
+# print(f"O terceiro elevado ao cubo é {real**3}")
+
+
+# #Questão12=====================================
+# altura= float(input("Digite aqui sua altura em metros: "))
+# print(f"Seu peso ideal é de {(72.7*altura) - 58}")
+
+
+
+# #Questão13=======================================
+# altura= float(input("Digite aqui sua altura em metros: "))
+# print(f"""Seu peso ideal é:
+#       {(72.7*altura) - 58}kg sexo masculino
+#       {(62.1*altura) - 44.7:.2f}kg sexo feminino""")
+
+
+
+
+# #Questão14===================================
+# excesso=float(input("Digite aqui quantos kilogramas de peixe você tem: "))-50
+# multa=excesso*4
+# print(f"Você tem {excesso}kg a mais do que o limite, deverá pagar uma multa de R${multa}")
+
+
+# #Questão15===========================================
+# salario_hora=float(input("Quanto você ganha por hora trabalhada?: R$"))
+# horas=float(input("Quantas horas você trabalhou este mês?: "))
+# salario=salario_hora*horas
+# print(f"""
+# + Salário Bruto : R${salario}
+# - IR (11%) : R${salario-salario*0.11}
+# - INSS (8%) : R${salario-salario*0.08}
+# - Sindicato ( 5%) : R${salario-salario*0.05}
+# = Salário Liquido : R${salario-salario*0.24}""")
+
+
+
+#Questão16========================================
+metros_q=float(input("Quantos metros quadrados tem a área que você vai pintar?: "))
+litros=metros_q/3
+if litros/18>int(litros/18):
+    print(f"Serão necessárias {int(litros/18)+1} latas, você pagará R${(int(litros/18)+1)*80}")
+else:
+    print(f"Serão necessárias {litros/18} latas, você pagará R${litros/18*80}")
+
+
+
+
+
+
 
 
     
