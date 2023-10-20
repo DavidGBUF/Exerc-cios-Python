@@ -108,19 +108,39 @@
 
 
 
-#Questão16========================================
-metros_q=float(input("Quantos metros quadrados tem a área que você vai pintar?: "))
-litros=metros_q/3
-if litros/18>int(litros/18):
-    print(f"Serão necessárias {int(litros/18)+1} latas, você pagará R${(int(litros/18)+1)*80}")
-else:
-    print(f"Serão necessárias {litros/18} latas, você pagará R${litros/18*80}")
+# #Questão16========================================
+# metros_q=float(input("Quantos metros quadrados tem a área que você vai pintar?: "))
+# litros=metros_q/3
+# if litros/18>int(litros/18):
+#     print(f"Serão necessárias {int(litros/18)+1} latas, você pagará R${(int(litros/18)+1)*80}")
+# else:
+#     print(f"Serão necessárias {litros/18} latas, você pagará R${litros/18*80}") 
+
+
+# #Questão17===============================================
+# def arrendodar_pra_cima(num,low=False):
+#     if num%1==0 or low==True:
+#         return int(num)
+#     else:
+#         return int(num)+1
+# metros_q=float(input("Quantos metros quadrados você irá pintar?: "))
+# litros=metros_q/6*1.1
+# latas=litros/18
+# galoes=litros/3.6
+
+# print(f"Se você comprar em latas, deverá comprar {arrendodar_pra_cima(latas)} e irá pagar R${arrendodar_pra_cima(latas)*80}")
+# print(f"Se for pagar em galões, deverá comprar {arrendodar_pra_cima(galoes)} e pagar R${arrendodar_pra_cima(galoes)*25}")
+# latas=arrendodar_pra_cima(latas,low=True)
+# litros-=latas*18
+# galoes=arrendodar_pra_cima(litros/3.6)
+# print(f"Se você comprar misturado, deverá comprar {latas} latas e {galoes} galões e pagar R${latas*80 + galoes *25}")
 
 
 
-
-
-
-
-
-    
+#Questão18=================================================
+tamanho=float(input("Quantos megasbytes tem seu arquivo?: "))
+velo=float(input("Qual a velocidade em Mbps de sua internet?: "))
+temp=tamanho/velo
+minutos=temp//60
+segundos=temp -60*minutos
+print(f"Irá levar {minutos} minutos e {segundos:.2f} segundos para fazer download de seu arquivo")
