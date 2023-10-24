@@ -121,7 +121,7 @@
 #     print("Boa noite e bons estudos")
     
 # else:
-#     print("Turno Inaválido")
+#     print("Turno Inválido")
 
 
 # #Questão11=======================================
@@ -144,39 +144,69 @@
 #     ajustes(salario,5)
 
 
-#Questão12========================================
-def impostos(salario_hora,horas):
-    salario=horas*salario_hora
-    print(f'''
-        (-) IR (5%)                     : R${salario*0.05}
-        (-) INSS ( 10%)                 : R${salario*0.1}
-        FGTS (11%)                      : R${salario*0.11}
-        Total de descontos              : R${salario*0.15}
-        Salário Liquido                 : R${salario-salario*0.15}''')
+# #Questão12========================================
+# def impostos(salario_hora,horas):
+#     salario=horas*salario_hora
+#     print(f'''
+#         (-) IR (5%)                     : R${salario*0.05:.2f}
+#         (-) INSS ( 10%)                 : R${salario*0.1:.2f}
+#         FGTS (11%)                      : R${salario*0.11:.2f}
+#         Total de descontos              : R${salario*0.15:.2f}
+#         Salário Liquido                 : R${salario-salario*0.15:.2f}''')
 
-salario_hora=float(input("Digite o valor do seu salário por hora: R$"))
-horas=float(input("Digite a quantidade de horas trabalhadas no mês: "))
-impostos(salario_hora,horas)
+# salario_hora=float(input("Digite o valor do seu salário por hora: R$"))
+# horas=float(input("Digite a quantidade de horas trabalhadas no mês: "))
+# impostos(salario_hora,horas)
 
 
-#Questão13========================================
-dia=int(input("Digite o dia: "))
-if dia==1:
-    print("Domingo")
-elif dia==2:
-    print("Segunda")
-elif dia==3:
-    print("Terça")
-elif dia==4:
-    print("Quarta")
-elif dia==5:
-    print("Quinta")
-elif dia==6:
-    print("Sexta")
-elif dia==7:DV  D
-    print("Sábado")
-else:
-    print("Valor inválido")
+# #Questão13========================================
+# dia=int(input("Digite o dia: "))
+# if dia==1:
+#     print("Domingo")
+# elif dia==2:
+#     print("Segunda")
+# elif dia==3:
+#     print("Terça")
+# elif dia==4:
+#     print("Quarta")
+# elif dia==5:
+#     print("Quinta")
+# elif dia==6:
+#     print("Sexta")
+# elif dia==7:  
+#     print("Sábado")
+# else:
+#     print("Valor inválido")
+
+# #Questão14================================
+# nota1=float(input("Digite a 1° Nota: "))
+# nota2=float(input("Digite a 2° Nota: "))
+# media=(nota1+nota2)/2
+# if 0<=media<4:
+#     print(f"Sua média é {media} , seu conceito é E")
+    
+# elif 4<=media<6:
+#     print(f"Sua média é {media} , seu conceito é D")
+    
+# elif 6<=media<7.5:
+#     print(f"Sua média é {media} , seu conceito é C")
+    
+# elif 7.5<=media<9:
+#     print(f"Sua média é {media} , seu conceito é B")
+    
+# elif 9<=media<=10:
+#     print(f"Sua média é {media} , seu conceito é A")
+
+
+#Questão 15===============================
+ladoA,ladoB,ladoC=0,0,0
+ladoA=float(input("Digite a medida do 1° lado do triângulo: "))
+ladoB=float(input("Digite a medida do 2° lado do triângulo: "))
+ladoC=float(input("Digite a medida do 3° lado do triângulo: "))
+
+if ladoA+ladoB<=ladoC or ladoC+ladoB<=ladoA or ladoA+ladoC<= ladoB:
+    print("Com essas medidas não é possivel formar um Triângulo")
+    
 
 
 

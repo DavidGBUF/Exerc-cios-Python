@@ -15,11 +15,14 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
 7 - Faça um Programa que leia três números e mostre o maior e o menor deles.
 
-8 - Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+8 - Faça um programa que pergunte o preço de três produtos e informe qual produto você deve 
+comprar, sabendo que a decisão é sempre pelo mais barato.
 
 9 - Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
-10 - Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+10 - Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino 
+ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" 
+ou "Valor Inválido!", conforme o caso.
 
 11 - As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
 Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
@@ -49,7 +52,8 @@ Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações,
 13 - Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
 
 
-14 - Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
+14 - Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao 
+longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
   Média de Aproveitamento  Conceito
   Entre 9.0 e 10.0        A
   Entre 7.5 e 9.0         B
@@ -59,7 +63,9 @@ Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações,
 O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 
 
-15 - Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
+15 - Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores 
+podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, 
+isósceles ou escaleno.
 Dicas:
 Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
 Triângulo Equilátero: três lados iguais;
