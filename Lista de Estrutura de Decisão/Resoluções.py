@@ -124,24 +124,60 @@
 #     print("Turno Inaválido")
 
 
-#Questão11=======================================
-salario=float(input("Digite o valor do seu salário: R$"))
-def ajustes(salario,percentual):
-    print("O seu salário antes do reajuste era: R$",salario)
-    print(f"O percentual de aumento aplicado foi de {percentual}%")
-    print("O valor do aumento foi de: R$",salario*percentual/100)
-    print("O seu novo salário é de: R$",salario*(percentual/100+1))
+# #Questão11=======================================
+# salario=float(input("Digite o valor do seu salário: R$"))
+# def ajustes(salario,percentual):
+#     print("O seu salário antes do reajuste era: R$",salario)
+#     print(f"O percentual de aumento aplicado foi de {percentual}%")
+#     print("O valor do aumento foi de: R$",salario*percentual/100)
+#     print("O seu novo salário é de: R$",salario*(percentual/100+1))
 
-if salario<=280:
-    ajustes(salario,20)
-elif 280 < salario <=700:
-    ajustes(salario,15)
+# if salario<=280:
+#     ajustes(salario,20)
+# elif 280 < salario <=700:
+#     ajustes(salario,15)
 
-elif 700 < salario <=1500:
-   ajustes(salario,10)
+# elif 700 < salario <=1500:
+#    ajustes(salario,10)
 
-elif salario > 1500:
-    ajustes(salario,5)
+# elif salario > 1500:
+#     ajustes(salario,5)
+
+
+#Questão12========================================
+def impostos(salario_hora,horas):
+    salario=horas*salario_hora
+    print(f'''
+        (-) IR (5%)                     : R${salario*0.05}
+        (-) INSS ( 10%)                 : R${salario*0.1}
+        FGTS (11%)                      : R${salario*0.11}
+        Total de descontos              : R${salario*0.15}
+        Salário Liquido                 : R${salario-salario*0.15}''')
+
+salario_hora=float(input("Digite o valor do seu salário por hora: R$"))
+horas=float(input("Digite a quantidade de horas trabalhadas no mês: "))
+impostos(salario_hora,horas)
+
+
+#Questão13========================================
+dia=int(input("Digite o dia: "))
+if dia==1:
+    print("Domingo")
+elif dia==2:
+    print("Segunda")
+elif dia==3:
+    print("Terça")
+elif dia==4:
+    print("Quarta")
+elif dia==5:
+    print("Quinta")
+elif dia==6:
+    print("Sexta")
+elif dia==7:DV  D
+    print("Sábado")
+else:
+    print("Valor inválido")
+
 
 
 
