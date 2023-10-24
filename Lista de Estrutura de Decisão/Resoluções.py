@@ -105,23 +105,43 @@
 # print("Os números que você digitou em ordem descrecente: ", *lista)
 
 
-#Questão10====================
-turno=input("""Digite a respectiva letra para seu turno de estudo.
-            M - Matutino
-            V - Vespertino
-            N - Noturno\nDigite aqui: """).upper()
+# #Questão10====================
+# turno=input("""Digite a respectiva letra para seu turno de estudo.
+#             M - Matutino
+#             V - Vespertino
+#             N - Noturno\nDigite aqui: """).upper()
 
-if turno=="M":
-    print("Bom dia e bons estudos")
+# if turno=="M":
+#     print("Bom dia e bons estudos")
     
-elif turno=="V":
-    print("Boa tarde e bons estudos")
+# elif turno=="V":
+#     print("Boa tarde e bons estudos")
     
-elif turno == "N":
-    print("Boa noite e bons estudos")
+# elif turno == "N":
+#     print("Boa noite e bons estudos")
     
-else:
-    print("Turno Inaválido")
+# else:
+#     print("Turno Inaválido")
+
+
+#Questão11=======================================
+salario=float(input("Digite o valor do seu salário: R$"))
+def ajustes(salario,percentual):
+    print("O seu salário antes do reajuste era: R$",salario)
+    print(f"O percentual de aumento aplicado foi de {percentual}%")
+    print("O valor do aumento foi de: R$",salario*percentual/100)
+    print("O seu novo salário é de: R$",salario*(percentual/100+1))
+
+if salario<=280:
+    ajustes(salario,20)
+elif 280 < salario <=700:
+    ajustes(salario,15)
+
+elif 700 < salario <=1500:
+   ajustes(salario,10)
+
+elif salario > 1500:
+    ajustes(salario,5)
 
 
 
