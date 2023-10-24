@@ -198,14 +198,25 @@
 #     print(f"Sua média é {media} , seu conceito é A")
 
 
-#Questão 15===============================
-ladoA,ladoB,ladoC=0,0,0
-ladoA=float(input("Digite a medida do 1° lado do triângulo: "))
-ladoB=float(input("Digite a medida do 2° lado do triângulo: "))
-ladoC=float(input("Digite a medida do 3° lado do triângulo: "))
+# #Questão 15===============================
 
-if ladoA+ladoB<=ladoC or ladoC+ladoB<=ladoA or ladoA+ladoC<= ladoB:
-    print("Com essas medidas não é possivel formar um Triângulo")
+# ladoA,ladoB,ladoC=0,0,0
+# ladoA=float(input("Digite a medida do 1° lado do triângulo: "))
+# ladoB=float(input("Digite a medida do 2° lado do triângulo: "))
+# ladoC=float(input("Digite a medida do 3° lado do triângulo: "))
+
+# if ladoA+ladoB<=ladoC or ladoC+ladoB<=ladoA or ladoA+ladoC<= ladoB:
+#     print("Com essas medidas não é possivel formar um Triângulo")
+    
+# elif ladoA==ladoB!=ladoC or ladoA==ladoC!=ladoB or ladoB==ladoC!=ladoA:
+#     print("Essas medidas formam um triângulo Isósceles")
+    
+# elif ladoA==ladoB==ladoC:
+#     print("Esse é um triângulo Equilátero")
+    
+# else:
+#     print("Esse é um triângulo Escaleno")
+    
     
 
 
